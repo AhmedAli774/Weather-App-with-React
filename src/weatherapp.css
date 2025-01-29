@@ -1,0 +1,77 @@
+/* App.css */
+
+.app-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("https://unsplash.com/photos/ZVhm6rEKEX8/download?force=true&w=1920");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .weather-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+  }
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+  
+  .input-field {
+    flex: 1;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0 0 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .fetch-button {
+    background-color: #1e40af;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0.5rem 0.5rem 0;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .weather-info {
+    margin-top: 1.5rem;
+  }
+  
+  .city-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .weather-description {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+  }
+  
+  .temperature {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+  .additional-info {
+    margin-top: 1rem;
+  }
+  
